@@ -19,6 +19,7 @@ public class Main {
 	public static int supervisorCount=3;
 	public Main() {
 		String choice;
+		System.out.println("Created by: Raymond Dehenrich Susilo");
 		do {
 			System.out.print("Load data from file? [Y/N]:");
 			choice=scan.nextLine();
