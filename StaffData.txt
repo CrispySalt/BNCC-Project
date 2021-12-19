@@ -1,0 +1,3 @@
+LE-2133#testing4#Laki-laki#Admin#4000000#4
+LE-2130#testing1#Laki-laki#Admin#4000000#0
+LE-2131#testing2#Laki-laki#Admin#4000000#-1
