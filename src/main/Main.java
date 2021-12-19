@@ -16,7 +16,7 @@ public class Main {
 	public static Random rand=new Random();
 	public static int adminCount=0;
 	public static int managerCount=0;
-	public static int supervisorCount=3;
+	public static int supervisorCount=0;
 	public Main() {
 		String choice;
 		System.out.println("Created by: Raymond Dehenrich Susilo");

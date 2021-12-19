@@ -67,6 +67,7 @@ public class InsertStaff {
 		Main.staff.add(tempStaff);
 		System.out.println("Berhasil menambahkan karyawan dengan id "+id);
 		new PositionChecker(jabatan);
+		new FileSave();
 		System.out.println("Press any button to continue...");
 		try {
 			System.in.read();
