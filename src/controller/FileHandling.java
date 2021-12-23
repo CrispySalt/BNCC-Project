@@ -13,10 +13,12 @@ public class FileHandling {
 
 	public FileHandling(int mode) {
 		//1=load,2=save
+		if(Main.enableFileHandling==1) {
 		if(mode==1) {
 			fileLoad();
 		}else if(mode==2) {
 			fileSave();
+		}
 		}
 	}
 	
