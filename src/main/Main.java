@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import controller.FileLoad;
+import controller.FileHandling;
 import controller.MainMenu;
 import models.Staff;
 
@@ -25,7 +25,7 @@ public class Main {
 			choice=scan.nextLine();
 		}while(!(choice.equals("Y"))&&!(choice.equals("N")));
 		if(choice.equals("Y")) {
-			new FileLoad();
+			new FileHandling(1);
 		}else {
 			System.out.println("Warning! Old data will be overwritten!");
 			System.out.println("Press any button to continue...");

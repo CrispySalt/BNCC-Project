@@ -1,5 +1,5 @@
-EP-3184#Aaron Sebastian#Laki-laki#Supervisor#6450000#1
-OC-6200#Alicia Gabrielle#Perempuan#Supervisor#6450000#2
-BD-7692#Calvin Nicholas#Laki-laki#Supervisor#6450000#3
+XU-6527#Aaron Sebastian#Laki-laki#Supervisor#6000000#4
+OC-6200#Alicia Gabrielle#Perempuan#Supervisor#6450000#1
+BD-7692#Calvin Nicholas#Laki-laki#Supervisor#6450000#1
 FD-9903#Felix Jonathan#Laki-laki#Manager#8000000#1
-NA-3849#Herman Kuding#Laki-laki#Supervisor#6000000#4
+NA-3849#Herman Kuding#Laki-laki#Supervisor#6000000#2

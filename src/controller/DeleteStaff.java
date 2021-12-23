@@ -9,11 +9,8 @@ import main.Main;
 public class DeleteStaff {
 
 	public DeleteStaff() {
-		for(int i=0;i<30;i++) {
-			System.out.println("");
-		}
 		if(Main.staff.size()>0) {
-			new PrintStaff();
+			new ViewStaff(1);
 			ArrayList<String> temp=new ArrayList<>();
 			for(int i=0;i<Main.staff.size();i++) {
 				temp.add(Main.staff.get(i).getNama());
@@ -21,7 +18,6 @@ public class DeleteStaff {
 			Collections.sort(temp);
 			int choice=-1;
 			String tempC;
-			System.out.println(Main.staff.size());
 			do {
 				System.out.print("Input No ['0' to return]>>");
 				tempC=Main.scan.nextLine();
@@ -32,7 +28,6 @@ public class DeleteStaff {
 			if(choice==0) {
 				return;
 			}
-			System.out.println("test");;
 			choice--;
 			int tempCheck=0;
 			for(int i=0;i<Main.staff.size();i++) {
@@ -63,7 +58,7 @@ public class DeleteStaff {
 								}
 							}
 							Main.staff.remove(j);
-							new FileSave();
+							new FileHandling(2);
 							tempCheck=1;
 						}
 					}

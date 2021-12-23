@@ -36,10 +36,10 @@ public class MainMenu {
 					System.out.println("");
 				}break;
 			case 1:new InsertStaff();break;
-			case 2:new ViewStaff();break;
+			case 2:new ViewStaff(0);break;
 			case 3:new EditStaff();break;
 			case 4:new DeleteStaff();break;
-			case 5:System.out.println("Exiting System...");new FileSave();System.exit(0);
+			case 5:System.out.println("Exiting System...");new FileHandling(2);System.exit(0);
 			}
 		}else {
     	System.out.println("Invalid input!");

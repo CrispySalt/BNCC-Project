@@ -11,11 +11,8 @@ public class EditStaff {
 
 	protected String checker;
 	public EditStaff() {
-		for(int i=0;i<30;i++) {
-			System.out.println("");
-		}
 		if(Main.staff.size()>0) {
-			new PrintStaff();
+			new ViewStaff(1);
 			ArrayList<String> temp=new ArrayList<>();
 			for(int i=0;i<Main.staff.size();i++) {
 				temp.add(Main.staff.get(i).getNama());
@@ -131,7 +128,7 @@ public class EditStaff {
 		if(!(jabatan.equals(this.checker))) {
 			new PositionChecker(jabatan);
 		}
-		new FileSave();
+		new FileHandling(2);
 		System.out.println("Press any button to continue...");
 		try {
 			System.in.read();
