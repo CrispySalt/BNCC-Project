@@ -22,7 +22,7 @@ public class Main {
 		String choice1;
 		String choice;
 		System.out.println("Created by: Raymond Dehenrich Susilo");
-		System.out.println("[Input is Case-Sensitive]");;
+		System.out.println("[Input is Case-Sensitive]");
 		do {
 			System.out.print("Do you want to enable File Handling[Save/Load from file]? [Y/N]:");
 			choice1=scan.nextLine();
